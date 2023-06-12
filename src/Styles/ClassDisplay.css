@@ -12,17 +12,12 @@
        color: #3e497a;
        font-size: 35px;
      }
-     .class img {
-       width: 600px;
-       height: 350px;
-       border-radius: 10px;
-     }
      
      .class p {
        font-size: 20px;
        text-align: justify;
        color: #3e497a;
-       width:50%;
+       width:90%;
        float:right;   
      }
      

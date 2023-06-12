@@ -12,24 +12,6 @@ function Home() {
   return (
     <div className="home">
       <div className = "about">
-        <div className="design-tag-body" id = "wrapper">
-          &lt;body&gt;
-        </div>
-        <div className="design-tag-bodyclose" id = "wrapper">
-          &lt;body/&gt;
-        </div>
-        <div className="design-tag-h1" id = "wrapper">
-          &lt;h1/&gt;
-        </div>
-        <div className="design-tag-h1close" id = "wrapper">
-          &lt;h1/&gt;
-        </div>
-        <div className="design-tag-h2" id = "wrapper">
-          &lt;h2&gt;
-        </div>
-        <div className="design-tag-h2close" id = "wrapper">
-          &lt;h2/&gt;
-        </div>
         <h2> Hi, My Name is Husain</h2>
         <div className= "prompt">
           <p>
@@ -51,6 +33,7 @@ function Home() {
 
         </div>
       </div>
+      <div className="row">
       <div className = "skills">
         <h1>Skills</h1>
         <ol className="list">
@@ -72,9 +55,8 @@ function Home() {
         </li>
         </ol>
       </div>
-
       <div className = "awards">
-        <h1>Awards & Achievements</h1>
+        <h1>Awards</h1>
         <ol className="list">
         <li className="item">
           <h2>University</h2>
@@ -90,7 +72,8 @@ function Home() {
         </li>
         </ol>
       </div>
-    </div>
+      </div>
+      </div>
   )
 }
 

@@ -1,221 +1,180 @@
 .home {
-       width: 100%;
-       align-items: center;
-       font-family: "Arial", sans-serif;
-       color: #3e497a;
-       margin: 0 auto;
-     }
-     
-     #wrapper {
-       margin-left:auto;
-       margin-right:auto;
-   }
-     .about {
-       width: 100%;
-       height: calc(100vh - 100px);
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       background-color: #21325e;
-       color: #f0f0f0;
-     }
-     
-     .about h2 {
-       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-       font-size: 80px;
-       color: #F3BFB3;      
-       height: 50px;  
-     }
-     
-     .about .prompt {
-       width: 40%;
-       font-size: 30px;
-     }
-
-     .design-tag-body {
-       position: absolute;
-       font-size: 30px;
-       left: 390px;
-       top: 350px;
-       text-transform: lowercase;
-       font-family: 'Garamond', serif;
-       letter-spacing: -3px;
-       transition: 700ms ease;
-       font-variation-settings: "wght" 311;
-       margin-bottom: 0.8rem;
-       color: #E8E288;
-       outline: none;
+  width: 100%;
+  margin: auto auto;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
 }
-       .design-tag-bodyclose {
-       position: absolute;
-       font-size: 30px;
-       right: 390px;
-       bottom: 200px;
-       text-transform: lowercase;
-       font-family: 'Garamond', serif;
-       letter-spacing: -3px;
-       transition: 700ms ease;
-       font-variation-settings: "wght" 311;
-       margin-bottom: 0.8rem;
-       color: #E8E288;
-       outline: none; 
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21325e;
+  color: #f0f0f0;
+  position:relative;
+
 }
-       .design-tag-h1{
-              position: absolute;
-              font-size: 30px;
-              left: 455px;
-              top: 390px;
-              text-transform: lowercase;
-              font-family: 'Garamond', serif;
-              letter-spacing: -3px;
-              transition: 700ms ease;
-              font-variation-settings: "wght" 311;
-              margin-bottom: 0.8rem;
-              color: #7DCE82;
-              outline: none; 
-       }
 
-       .design-tag-h1close{
-              position: absolute;
-              font-size: 30px;
-              right: 480px;
-              bottom: 420px;
-              text-transform: lowercase;
-              font-family: 'Garamond', serif;
-              letter-spacing: -3px;
-              transition: 700ms ease;
-              font-variation-settings: "wght" 311;
-              margin-bottom: 0.8rem;
-              color: #7DCE82;
-              outline: none; 
-       }
-
-       .design-tag-h2{
-              position: absolute;
-              font-size: 30px;
-              left: 520px;
-              top: 510px;
-              text-transform: lowercase;
-              font-family: 'Garamond', serif;
-              letter-spacing: -3px;
-              transition: 700ms ease;
-              font-variation-settings: "wght" 311;
-              margin-bottom: 0.8rem;
-              color: #3CDBD3;
-              outline: none; 
-       }
-
-       .design-tag-h2close{
-              position: absolute;
-              font-size: 30px;
-              right: 555px;
-              bottom: 240px;
-              text-transform: lowercase;
-              font-family: 'Garamond', serif;
-              letter-spacing: -3px;
-              transition: 700ms ease;
-              font-variation-settings: "wght" 311;
-              margin-bottom: 0.8rem;
-              color: #3CDBD3;
-              outline: none; 
-       }
-     .prompt svg {
-       font-size: 60px;
-       margin: 5px;
-       color: white;
-     }
-     
-     .skills {
-       font-size: 25px;
-       width: 100%;
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: left;
-     }
-     .skills .list {
-       margin-top:-15px;
-       margin-left: -125px;
-       position:relative;
-       list-style: none;
-       width: 60%;
-       height: 200%;
-     }
-     .awards {
-       font-size: 25px;
-       width: 100%;
-       display: flex;
-       justify-content: center;
-       align-items: right;
-       margin-left: 05%;
-     }
-
-     .awards .list{
-       margin-top:-590px;
-       margin-right: -460px;
-       position:relative;
-       list-style: none;
-       width: 60%;
-       height: 200%;
-     }
-
-     .skills h1 {
-       position: relative;
-       flex-direction: column;
-       font-size: 55px;
-       color: #3e497a;
-       margin-left: -25%;
-       width: 100%;
-       display: flex;
-       justify-content: center;
-     }
-
-     .awards h1 {
-       position: absolute;
-       top: 99.7%;
-       right:-19%;
-       flex-direction: column;
-       font-size: 55px;
-       color: #3e497a;
-       width: 100%;
-       display: flex;
-       justify-content: center;
-     }
+.about p {
 
 
-     
-     .list span {
-       font-size: 20px;
-     }
+  &::before {
+    font-size: 26px;
+    position:relative;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: -65px;
+    content: '<p>';
+    font-famly:'Garamond', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #E8E288;
+    outline: none;
+  }
 
-     
-     @media only screen and (max-width: 600px) {
-       .about h2 {
-         font-size: 90px;
-       }
-     
-       .about .prompt {
-         margin-top: 10px;
-         font-size: 20px;
-         width: 80%;
-       }
-     
-       .skills {
-         text-align: center;
-       }
-
-       .awards {
-              text-align: center;
-            }
-       .list {
-         padding: 6;
-       }
-     
-       .skills h2 {
-         font-size: 30px;
-       }
+  &::after {
+    font-size: 26px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+    content: '</p>';
+    font-famly:'Garamond', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #E8E288;
+    outline: none;
+  }
+}
 
 
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  color: #F3BFB3;
+  height: 50px;
+
+  &::before {
+    font-size: 26px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -6%;
+    content: '<body>';
+    font-famly:'Garamond', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #11A797;
+    outline: none;
+  }
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+  &::after {
+    position: absolute;
+    font-size: 26px;
+    margin-top: 65px;
+    margin-left: 14%;
+    content: '</body>';
+    font-famly:'Garamond', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #11A797;
+    outline: none;
+  }
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+
+.skills {
+  float: left;
+  font-size: 35px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.awards {
+  margin-top: -0.5%;
+  float: left;
+  font-size: 35px;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+}
+
+.awards h1 {
+  color: #3e497a;
+}
+
+.skills .list {
+  list-style: none;
+  width: 92%;
+  text-align: center;
+}
+
+.awards .list {
+  list-style: none;
+  width: 92%;
+  text-align: center;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: left;
+  }
+
+  .awards {
+    text-align: right;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+
+  .awards h2 {
+    font-size: 30px;
+  }
 }

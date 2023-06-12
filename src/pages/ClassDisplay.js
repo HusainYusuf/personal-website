@@ -10,7 +10,6 @@ function ClassDisplay() {
   return (
        <div className="class">
        <h1> {aClass.name}</h1>
-       <img src = {aClass.image} />
        <p>Description: {aClass.Description}</p>
        <p>Tips: {aClass.Advice}</p>
        </div>  
