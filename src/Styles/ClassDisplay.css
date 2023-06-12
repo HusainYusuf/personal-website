@@ -19,8 +19,11 @@
      }
      
      .class p {
-       font-size: 40px;
+       font-size: 20px;
+       text-align: justify;
        color: #3e497a;
+       width:50%;
+       float:right;   
      }
      
      .class svg {

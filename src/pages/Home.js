@@ -4,6 +4,9 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import FilePresentIcon from '@mui/icons-material/FilePresent';
+import Link from '@material-ui/core/Link';
+import { ListItem } from '@mui/material';
+import pdfFile from "../assets/Husain Yusuf CV.pdf";
 
 function Home() {
   return (
@@ -32,10 +35,19 @@ function Home() {
           <p>
             An aspiring software developer and recent graduate from West Virginia University. 
           </p>
+
+          <a href={pdfFile} target="_blank">
+          <FilePresentIcon /> 
+          </a>   
+          <Link href="https://www.linkedin.com/in/husainyusuf1/" target="_blank">
           <LinkedInIcon/>
+          </Link>
+          <Link href="https://github.com/HusainYusuf" target="_blank">
           <GitHubIcon/>
+          </Link>
+          <Link href="mailto:husainyusuf1901@gmail.com">
           <EmailIcon/>
-          <FilePresentIcon/>
+          </Link>
 
         </div>
       </div>
