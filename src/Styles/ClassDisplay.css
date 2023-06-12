@@ -8,7 +8,6 @@
      }
      
      .class h1 {
-       margin-top: 50px;
        color: #3e497a;
        font-size: 35px;
      }
@@ -17,7 +16,7 @@
        font-size: 20px;
        text-align: justify;
        color: #3e497a;
-       width:90%;
+       width:95%;
        float:right;   
      }
      
@@ -25,3 +24,9 @@
        font-size: 60px;
        color: #3e497a;
      }
+
+     @media screen and (max-width: 600px) {
+      .class p {
+        font-size: 15px;
+      }
+    }
